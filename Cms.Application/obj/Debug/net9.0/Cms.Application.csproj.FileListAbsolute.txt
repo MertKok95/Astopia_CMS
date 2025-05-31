@@ -13,3 +13,4 @@
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net9.0/refint/Cms.Application.dll
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net9.0/Cms.Application.pdb
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net9.0/ref/Cms.Application.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net9.0/Cms.Application.sourcelink.json

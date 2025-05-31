@@ -228,3 +228,4 @@
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Web/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Web/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Web/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Web/obj/Debug/net9.0/Cms.Web.sourcelink.json

@@ -9,3 +9,4 @@
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net9.0/refint/Cms.Domain.dll
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net9.0/Cms.Domain.pdb
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net9.0/ref/Cms.Domain.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net9.0/Cms.Domain.sourcelink.json

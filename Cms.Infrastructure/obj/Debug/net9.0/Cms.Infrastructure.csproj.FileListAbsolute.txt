@@ -17,3 +17,4 @@
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Infrastructure/obj/Debug/net9.0/Cms.Infrastructure.pdb
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Infrastructure/obj/Debug/net9.0/Cms.Infrastructure.genruntimeconfig.cache
 /Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Infrastructure/obj/Debug/net9.0/ref/Cms.Infrastructure.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Infrastructure/obj/Debug/net9.0/Cms.Infrastructure.sourcelink.json

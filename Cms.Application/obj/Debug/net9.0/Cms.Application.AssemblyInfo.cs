@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cms.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24529d8217383079bfd5f887da5622c38919b2aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cms.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cms.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
