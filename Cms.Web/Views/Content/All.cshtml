@@ -1,0 +1,56 @@
+@model List<Cms.Application.Dtos.ContentDto>
+@{
+    ViewData["Title"] = "Tüm İçerikler";
+
+    var selectedCategory = ViewBag.SelectedCategory as Guid?;
+    var selectedLanguage = ViewBag.SelectedLanguage as string ?? "";
+    var categories = ViewBag.Categories as List<Cms.Application.Dtos.CategoryDto> ?? new();
+}
+<h2>Tüm İçerikler</h2>
+
+<form method="get" class="mb-4">
+    <input type="hidden" name="userId" value="@ViewBag.UserId" />
+
+    <div class="row g-3 align-items-center">
+        <div class="col-auto">
+            <select name="categoryId" class="form-select">
+                <option value="">Kategori Seçin</option>
+                @foreach (var category in categories)
+                {
+                    var isSelected = selectedCategory.HasValue && selectedCategory.Value == category.Id;
+                    <option value="@category.Id" selected="@(isSelected ? "selected" : null)">
+                        @category.Name
+                    </option>
+                }
+            </select>
+        </div>
+
+        <div class="col-auto">
+            <select name="language" class="form-select">
+                <option value="">Dil Seçin</option>
+                <option value="tr" selected="@(selectedLanguage == "tr" ? "selected" : null)">Türkçe</option>
+                <option value="en" selected="@(selectedLanguage == "en" ? "selected" : null)">English</option>
+            </select>
+        </div>
+
+        <div class="col-auto">
+            <button class="btn btn-primary" type="submit">Filtrele</button>
+        </div>
+    </div>
+</form>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card">
+                <img src="@item.SelectedVariant.ImageUrl" height="100px" width="15%" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.Description</p>
+                    <a href="/Content/Detail?id=@item.Id&userId=@item.UserId" class="btn btn-sm btn-outline-primary">Detay</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

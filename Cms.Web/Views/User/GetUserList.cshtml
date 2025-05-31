@@ -1,0 +1,31 @@
+@model List<Cms.Application.Dtos.UserDto>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Kullanıcı Listesi";
+}
+
+<h2 class="mb-4">Kullanıcılar</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Ad Soyad</th>
+            <th>E-posta</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.FullName</td>
+            <td>@user.Email</td>
+            <td>
+                <a href="@Url.Action("Contents", "User", new { userId = user.Id })" class="btn btn-primary btn-sm">
+                    İçeriklerini Gör
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

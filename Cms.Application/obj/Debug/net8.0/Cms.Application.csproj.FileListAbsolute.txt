@@ -1,0 +1,17 @@
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Application.deps.json
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Application.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Application.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Domain.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Infrastructure.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Domain.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/bin/Debug/net8.0/Cms.Infrastructure.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.csproj.AssemblyReference.cache
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.AssemblyInfoInputs.cache
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.AssemblyInfo.cs
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.csproj.CoreCompileInputs.cache
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Appl.F5E529BD.Up2Date
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/refint/Cms.Application.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/Cms.Application.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/obj/Debug/net8.0/ref/Cms.Application.dll

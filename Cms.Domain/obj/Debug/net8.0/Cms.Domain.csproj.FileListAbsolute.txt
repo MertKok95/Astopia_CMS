@@ -1,0 +1,11 @@
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/bin/Debug/net8.0/Cms.Domain.deps.json
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/bin/Debug/net8.0/Cms.Domain.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/bin/Debug/net8.0/Cms.Domain.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.AssemblyInfoInputs.cache
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.AssemblyInfo.cs
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.csproj.CoreCompileInputs.cache
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/refint/Cms.Domain.dll
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/Cms.Domain.pdb
+/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Domain/obj/Debug/net8.0/ref/Cms.Domain.dll

@@ -1,0 +1,50 @@
+@model List<Cms.Application.Dtos.ContentDto>
+
+@{
+    ViewBag.Title = "Kullanıcı İçerikleri";
+
+    var categories = ViewBag.Categories as List<Cms.Application.Dtos.CategoryDto> ?? new();
+    Guid? selectedCategory = null;
+
+    // Nullable Guid için güvenli parse işlemi
+    if (ViewBag.SelectedCategory is Guid catGuid)
+    {
+        selectedCategory = catGuid;
+    }
+    else if (ViewBag.SelectedCategory is string catStr && Guid.TryParse(catStr, out var parsed))
+    {
+        selectedCategory = parsed;
+    }
+}
+
+<h2>İçerikler</h2>
+
+<!-- Kategori Filtresi -->
+<form method="get">
+    <input type="hidden" name="userId" value="@ViewBag.UserId" />
+    <select name="categoryId" onchange="this.form.submit()" class="form-select w-auto d-inline-block">
+        <option value="">Tüm Kategoriler</option>
+        @foreach (var category in categories)
+        {
+            <option value="@category.Id" selected="@(selectedCategory.HasValue && selectedCategory.Value == category.Id)">
+                @category.Name
+            </option>
+        }
+    </select>
+</form>
+
+<hr />
+
+@foreach (var content in Model)
+{
+    <div class="card mb-3">
+        <div class="card-body">
+            <h4>@content.Title</h4>
+            <p>@content.Description</p>
+            <p><strong>Varyant:</strong> @content.SelectedVariant?.VariantName</p>
+            <p>
+                <small>Kategori: @content.CategoryName | Dil: @content.Language</small>
+            </p>
+        </div>
+    </div>
+}

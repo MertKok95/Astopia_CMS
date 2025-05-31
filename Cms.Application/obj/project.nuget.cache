@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "JcpUiTprVPI=",
+  "success": true,
+  "projectFilePath": "/Users/mertkok/Projects/Fluttter_Projects/interview_projects/astopia_cms_app/Cms.Application/Cms.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/mertkok/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.caching.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.caching.memory/10.0.0-preview.4.25258.110/microsoft.extensions.caching.memory.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0-preview.4.25258.110/microsoft.extensions.logging.abstractions.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.options/10.0.0-preview.4.25258.110/microsoft.extensions.options.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/microsoft.extensions.primitives/10.0.0-preview.4.25258.110/microsoft.extensions.primitives.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "/Users/mertkok/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0-preview.4.25258.110/system.diagnostics.diagnosticsource.10.0.0-preview.4.25258.110.nupkg.sha512"
+  ],
+  "logs": []
+}

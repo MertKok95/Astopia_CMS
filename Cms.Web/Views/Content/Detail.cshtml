@@ -1,0 +1,16 @@
+@model Cms.Application.Dtos.ContentDetailDto
+@{
+    ViewData["Title"] = "İçerik Detayı";
+}
+
+<div class="card">
+    <img src="@Model.ImageUrl" height="100px" width="15% !important"  alt="..." />
+    <div class="card-body">
+        <h4 class="card-title">@Model.Title</h4>
+        <p class="card-text">@Model.Description</p>
+        <hr />
+        <strong>Kategori:</strong> @Model.CategoryName<br />
+        <strong>Varyant ID:</strong> @Model.SelectedVariantId<br />
+        <strong>Dil:</strong> @Model.Language
+    </div>
+</div>

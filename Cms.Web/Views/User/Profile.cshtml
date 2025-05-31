@@ -1,0 +1,24 @@
+@model Cms.Application.Dtos.UserDto
+
+@{
+    var contents = ViewBag.Contents as List<Cms.Application.Dtos.ContentDto> ?? new List<Cms.Application.Dtos.ContentDto>();
+}
+
+<h2>@Model.FullName</h2>
+<p>@Model.Email</p>
+
+<h3>İçerikler</h3>
+
+@if (contents.Any())
+{
+    <ul>
+        @foreach (var item in contents)
+        {
+            <li>@item.Title - @item.CategoryName (@item.Language)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Kullanıcının içerikleri bulunamadı.</p>
+}
